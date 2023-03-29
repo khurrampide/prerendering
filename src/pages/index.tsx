@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <h1>Next.js Pre Rendering</h1>
-      <Link href="/users">Users</Link>
+      <div>
+      < Link href="/users">Users</Link>
+      </div>
       <Link href="/posts">Posts</Link>
     </>
   )
